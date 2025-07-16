@@ -19,7 +19,10 @@ export default function Home() {
         }}
       >
         {shipperData.map((data) => (
-          <Stack sx={{ alignItems: "center", paddingBottom: "12px" }}>
+          <Stack
+            key={data.dnpNo}
+            sx={{ alignItems: "center", paddingBottom: "12px" }}
+          >
             {Barcode(data.dnpNo)}
             <div>{data.shipperName}</div>
           </Stack>
