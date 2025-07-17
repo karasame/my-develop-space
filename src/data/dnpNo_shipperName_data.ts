@@ -1,5 +1,4 @@
 export const shipperData = [
-  { dnpNo: "120000000010", shipperName: "黒猫太郎" },
   { dnpNo: "120000000021", shipperName: "佐藤 美里" },
   { dnpNo: "120000000032", shipperName: "高橋 由美" },
   { dnpNo: "120000000043", shipperName: "木村 健太" },
