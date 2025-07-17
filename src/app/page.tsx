@@ -9,7 +9,7 @@ import { Stack } from "@mui/material";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div>
       <div
         style={{
           display: "flex",
